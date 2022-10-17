@@ -1,6 +1,6 @@
 <h2 align="center">
   My Portfolio Website<br/>
-  <a href="https://rifqifarhansyah.vercel.app/about" target="_blank">RifqiFarhansyah Website</a>
+  <a href="https://rifqifarhansyah.vercel.app/" target="_blank">RifqiFarhansyah Website</a>
 </h2>
 <hr>
 ## Built With
