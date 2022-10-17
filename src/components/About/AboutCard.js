@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohammad Rifqi Farhansyah </span>
             from <span className="purple"> Magelang, Indonesia.</span>
-            <br />I am a junior pursuing Bachelor Degree in Informatics Engineering in Institut Teknologi Bandung.
+            <br />I am a junior pursuing Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Lakon Menang Keri"{" "}
+            "Deep Learning is Very Deep"{" "}
           </p>
-          <footer className="blockquote-footer">Javanese Proverb</footer>
+          <footer className="blockquote-footer">Unknown</footer>
         </blockquote>
       </Card.Body>
     </Card>
