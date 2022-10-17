@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohammad Rifqi Farhansyah </span>
             from <span className="purple"> Magelang, Indonesia.</span>
-            <br />I am a junior pursuing Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
+            <br />I currently pursuing my Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
