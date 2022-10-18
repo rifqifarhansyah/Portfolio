@@ -85,7 +85,7 @@
                     <g mask="url(#mask0_2_252)">
                         <g transform="translate(43.000000, 15.000000)">
                             <mask id="mask-14" fill="white">
-                                <use xlink:href="#path-13"></use>
+                                <use xlink:href="#path-40"></use>
                             </mask>
                             <use id="Long-Hair" stroke="none" fill="#1F3140" fill-rule="evenodd" xlink:href="#path-13"></use>
                             <g id="Top/Long-Hair/Dreads" stroke="none" fill="none" mask="url(#mask-14)" fill-rule="evenodd">

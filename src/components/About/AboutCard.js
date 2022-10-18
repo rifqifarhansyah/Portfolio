@@ -13,7 +13,7 @@ function AboutCard() {
             <br />I currently pursuing my Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do :
           </p>
           <ul>
             <li className="about-activity">
