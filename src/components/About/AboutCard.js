@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mohammad Rifqi Farhansyah </span>
+            Hi Everyone, my name is <span className="purple">Mohammad Rifqi Farhansyah </span>
             from <span className="purple"> Magelang, Indonesia.</span>
-            <br />I currently pursuing my Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
+            <br />I am currently pursuing my Bachelor Degree in Informatics Engineering at Institut Teknologi Bandung.
             <br />
             <br />
             Apart from coding, some other activities that I love to do :
