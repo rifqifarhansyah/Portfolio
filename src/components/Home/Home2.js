@@ -22,7 +22,7 @@ function Home2() {
               Hello Fellas, I'm currently pursuing my carreer as a Researcher by 
               studying at Informatics Engineering, ITB 👨‍🎓
               <br />
-              <br />I am fluent in classics programming language like
+              <br />I am fluent in classic programming languages like
               <i>
                 <b className="purple"> C, Java, and Python. </b>
               </i>
