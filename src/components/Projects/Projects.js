@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import TubesAlgeo1 from "../../Assets/Projects/TubesAlgeo1.png";
 import FrontEndIntroduction from "../../Assets/Projects/FrontEndIntroduction.png";
 import DrumKitSimulator from "../../Assets/Projects/DrumKitSimulator.png";
+import SimonGame from "../../Assets/Projects/SimonGame.png";
 
 function Projects() {
   return (
@@ -47,6 +48,17 @@ function Projects() {
               title="Drum Kit Simulator"
               description="A Simple Drum Kit Simulator website that build with HTML, CSS, and JavaScript. User can click the 'button drum' by pressing the keyboard or just click the image."
               ghLink="https://github.com/rifqifarhansyah/DrumKitSimulator"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SimonGame}
+              isBlog={false}
+              title="Simple Simon Game"
+              description="A Simple Simon Game website that build with HTML, CSS, and JavaScript. User need to remember the pattern that given by system and then follow it (test the Sound Memories of the User)."
+              ghLink="https://github.com/rifqifarhansyah/SimonGame"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
