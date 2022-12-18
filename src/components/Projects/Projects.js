@@ -97,7 +97,7 @@ function Projects() {
               title="Drum Kit Simulator"
               description="A Simple Drum Kit Simulator website that build with HTML, CSS, and JavaScript. User can click the 'button drum' by pressing the keyboard or just click the image."
               ghLink="https://github.com/rifqifarhansyah/DrumKitSimulator"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://drumkitsimulator.vercel.app/"
             />
           </Col>
 
@@ -108,7 +108,7 @@ function Projects() {
               title="Simple Simon Game"
               description="A Simple Simon Game website that build with HTML, CSS, and JavaScript. User need to remember the pattern that given by system and then follow it (test the Sound Memories of the User)."
               ghLink="https://github.com/rifqifarhansyah/SimonGame"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://simongame-six.vercel.app/"
             />
           </Col>
 
