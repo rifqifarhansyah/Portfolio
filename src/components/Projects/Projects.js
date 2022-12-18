@@ -2,6 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import Binomo from "../../Assets/Projects/Binomo.png";
+import FlaskCard from "../../Assets/Projects/FlaskCard.png";
+import SimplePomodoro from "../../Assets/Projects/SimplePomodoro.png";
 import BatikPattern from "../../Assets/Projects/BatikPattern.png";
 import TubesAlgeo1 from "../../Assets/Projects/TubesAlgeo1.png";
 import TubesAlgeo2 from "../../Assets/Projects/TubesAlgeo2.png";
@@ -45,11 +48,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Binomo}
+              isBlog={false}
+              title="Binomo Game Bot"
+              description="CLI based game for Binomo Game (similar with dinner dash game). This program is written in Python Programming Language."
+              ghLink="https://github.com/rifqifarhansyah/IF2110-BNMO-The-Game"
+              // demoLink="https://drive.google.com/file/d/1SbD0jCkGbdNSbsBV52oIpmvyz75EotJb/view"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={TubesAlgeo1}
               isBlog={false}
               title="Matrix Calculator in Java"
               description="Calculator Matrix to determine the solution of linear equation, inverse of certain matrix, linear interpolation, bicubic interpolation, etc. This Program is written in Java Programming Language."
-              ghLink="https://github.com/rifqifarhansyah/Algeo01-21086"
+              ghLink="https://github.com/rifqifarhansyah/MatrixCalculator"
+              // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FlaskCard}
+              isBlog={false}
+              title="Flask Card"
+              description="Project to help Indonesian People who wants to study English Vocabularies. This program is written in Python Programming Language (GUI)."
+              ghLink="https://github.com/rifqifarhansyah/Flask-Card"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -83,6 +108,17 @@ function Projects() {
               title="Simple Simon Game"
               description="A Simple Simon Game website that build with HTML, CSS, and JavaScript. User need to remember the pattern that given by system and then follow it (test the Sound Memories of the User)."
               ghLink="https://github.com/rifqifarhansyah/SimonGame"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SimplePomodoro}
+              isBlog={false}
+              title="Simple Pomodoro Timer"
+              description="Pomodoro timer to manage work and break time. This program is written in python programming language (GUI)."
+              ghLink="https://github.com/rifqifarhansyah/Simple-Pomodoro"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
