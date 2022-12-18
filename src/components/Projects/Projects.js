@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import BatikPattern from "../../Assets/Projects/BatikPattern.png";
 import TubesAlgeo1 from "../../Assets/Projects/TubesAlgeo1.png";
+import TubesAlgeo2 from "../../Assets/Projects/TubesAlgeo2.png";
 import FrontEndIntroduction from "../../Assets/Projects/FrontEndIntroduction.png";
 import DrumKitSimulator from "../../Assets/Projects/DrumKitSimulator.png";
 import SimonGame from "../../Assets/Projects/SimonGame.png";
@@ -19,6 +21,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TubesAlgeo2}
+              isBlog={false}
+              title="Eigen Face Recognition"
+              description="A simple face recognition GUI that utilizing the Eigen Concepts of matrices using Tkinter, OpenCV, PIL, numpy, etc."
+              ghLink="https://github.com/rifqifarhansyah/EigenFace-Recognition"
+              demoLink="https://www.youtube.com/watch?v=xm5gqvvVv0k&ab_channel=MohammadRifqiFarhansyah"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BatikPattern}
+              isBlog={false}
+              title="Batik Pattern Classification"
+              description="A simple Batik Pattern Classification using Decision Tree and Global Features Extraction."
+              ghLink="https://github.com/rifqifarhansyah/Batik-Pattern-Classification"
+              demoLink="https://drive.google.com/file/d/1SbD0jCkGbdNSbsBV52oIpmvyz75EotJb/view"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TubesAlgeo1}
