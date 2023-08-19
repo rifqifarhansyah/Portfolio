@@ -18,7 +18,7 @@ import PathFinder from "../../Assets/Projects/PathFinder.png";
 import FloodFill from "../../Assets/Projects/FloodFill.png";
 import MSTVisualizer from "../../Assets/Projects/MSTVisualizer.png";
 import CourseScheduler from "../../Assets/Projects/CourseScheduler.png";
-import TarjanAlgorithm from "../../Assets/Projects/TarjanAlgorithm.png";
+import TarjanAlgorithm from "../../Assets/Projects/TarjanAlgorithms.png";
 import TextCompresser from "../../Assets/Projects/TextCompresser.png";
 
 function Projects() {
