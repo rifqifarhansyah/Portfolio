@@ -1,5 +1,5 @@
 <h2 align="center">
-  My Portofolio Website<br/>
+  My Portfolio Website<br/>
   <a href="https://rifqifarhansyah.vercel.app" target="_blank">RifqiFarhansyah</a>
 </h2>
 <hr>

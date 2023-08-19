@@ -11,6 +11,15 @@ import TubesAlgeo2 from "../../Assets/Projects/TubesAlgeo2.png";
 import FrontEndIntroduction from "../../Assets/Projects/FrontEndIntroduction.png";
 import DrumKitSimulator from "../../Assets/Projects/DrumKitSimulator.png";
 import SimonGame from "../../Assets/Projects/SimonGame.png";
+import ChatGPT from "../../Assets/Projects/ChatGPT.png";
+import Perhutani from "../../Assets/Projects/Perhutani.png";
+import TreasureHunter from "../../Assets/Projects/TreasureHunter.png";
+import PathFinder from "../../Assets/Projects/PathFinder.png";
+import FloodFill from "../../Assets/Projects/FloodFill.png";
+import MSTVisualizer from "../../Assets/Projects/MSTVisualizer.png";
+import CourseScheduler from "../../Assets/Projects/CourseScheduler.png";
+import TarjanAlgorithm from "../../Assets/Projects/TarjanAlgorithm.png";
+import TextCompresser from "../../Assets/Projects/TextCompresser.png";
 
 function Projects() {
   return (
@@ -43,6 +52,105 @@ function Projects() {
               description="A simple Batik Pattern Classification using Decision Tree and Global Features Extraction."
               ghLink="https://github.com/rifqifarhansyah/Batik-Pattern-Classification"
               demoLink="https://drive.google.com/file/d/1SbD0jCkGbdNSbsBV52oIpmvyz75EotJb/view"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ChatGPT}
+              isBlog={false}
+              title="ChatGPT - Lite"
+              description="Website that can generate a chat response based on the user input. This program utilize KMP and BM for string pattern matching process."
+              ghLink="https://github.com/rifqifarhansyah/ChatGPT-Lite"
+              demoLink="https://chatgpt-lite-alpha.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Perhutani}
+              isBlog={false}
+              title="Perhutani Website"
+              description="Website project for 'Perhutani Regional Jawa Barat dan Banten'. This project is intended to help Perhutani manage their assets in Jawa Barat and Banten."
+              ghLink="https://github.com/rifqifarhansyah/Perhutani-Jabar"
+              demoLink="https://perhutani-jabar.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TreasureHunter}
+              isBlog={false}
+              title="Treasure Hunter"
+              description="GUI Project that implement BFS and DFS Algorithm to find the treasure. This program is written in C# Programming Language (GUI)."
+              ghLink="https://github.com/rifqifarhansyah/TreasureHunter"
+              // demoLink="https://perhutani-jabar.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={PathFinder}
+              isBlog={false}
+              title="Path Finder"
+              description="Website Project that implement A* and UCS Algorithm to find the shortest path. This program is the part of my project in Algorithm Strategy Course"
+              ghLink="https://github.com/rifqifarhansyah/PathFinder"
+              demoLink="https://tucil-3-g7s9.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={FloodFill}
+              isBlog={false}
+              title="FloodFill - Simple Paint"
+              description="An implementation of BFS and DFS Algorithm to recreate a bucket fill tool in paint application. FloodFill application is written in Python Programming Language (PyGame)."
+              ghLink="https://github.com/rifqifarhansyah/FloodFill-SimplePaint"
+              demoLink="https://www.youtube.com/watch?v=FQxSS_ljs6A&feature=youtu.be&ab_channel=MohammadRifqiFarhansyah"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MSTVisualizer}
+              isBlog={false}
+              title="MST Visualizer"
+              description="Minimum Spanning Tree Visualizer that implement Kruskal and Prim Algorithm to find the minimum spanning tree. The application also provides another fitures (MST clustering, add and remove node, etc)."
+              ghLink="https://github.com/rifqifarhansyah/MST-Visualizer"
+              // demoLink="https://www.youtube.com/watch?v=FQxSS_ljs6A&feature=youtu.be&ab_channel=MohammadRifqiFarhansyah"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CourseScheduler}
+              isBlog={false}
+              title="Course Scheduler"
+              description="Website that could help students to plan their courses that have a big chance to get the best score. This website use react for the frontend and golang for the bockend. This project also provide a Docker setup."
+              ghLink="https://github.com/rifqifarhansyah/CourseScheduler_Frontend"
+              demoLink="https://course-scheduler-frontend-cztvf3pz6-rifqifarhansyah.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TarjanAlgorithm}
+              isBlog={false}
+              title="Tarjan Algorithm"
+              description="A website that implement Tarjan Algorithm to find SCC and its bridge. This website use react for the frontend and golang for the bockend."
+              ghLink="https://github.com/rifqifarhansyah/TarjansAlgorithm"
+              // demoLink="https://course-scheduler-frontend-cztvf3pz6-rifqifarhansyah.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TextCompresser}
+              isBlog={false}
+              title="Text Compresser"
+              description="Text compresser website that utilize LZW and Huffman Algorithm. This website use react for the frontend and nodeJS for the bockend."
+              ghLink="https://github.com/rifqifarhansyah/StringCompresser-FrontEnd"
+              // demoLink="https://course-scheduler-frontend-cztvf3pz6-rifqifarhansyah.vercel.app/"
             />
           </Col>
 
